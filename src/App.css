@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.App {
+  margin-top: 0px;
+  text-align: center;
+}
+
+
+.upper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .upper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

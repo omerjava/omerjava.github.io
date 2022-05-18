@@ -1,0 +1,10 @@
+.skill-header {
+  border: solid 1px rgb(146, 136, 94);
+  padding: 5px 20px;
+}
+
+.skill-header:hover {
+  border: solid 1px rgb(0, 0, 0);
+  background-color: rgb(205, 197, 167);
+  cursor: pointer;
+}

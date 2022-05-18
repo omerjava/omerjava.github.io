@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 15px 40%;
+  width: 100%;
+  height: auto;
+  background-color: rgb(174, 164, 124);
+  color: rgb(6, 6, 6);
+}
+
+.footer a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: medium;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: rgb(223, 227, 216);
+}
+
+.footer a:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(56, 58, 54);
+}

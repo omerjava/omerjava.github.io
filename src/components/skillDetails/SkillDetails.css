@@ -1,0 +1,16 @@
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 5px;
+}
+
+.details-header {
+    padding-left: 4% ;
+    color: rgb(88, 7, 7);
+    font-weight: 700;
+}
+
+.details-info {
+    margin-left: 1% ;
+}

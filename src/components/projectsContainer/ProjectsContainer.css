@@ -1,0 +1,130 @@
+.projects {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.projects .projects-section {
+  color: rgb(255, 254, 254);
+  background-color: rgb(58, 55, 48);
+  width: 25%;
+  min-height: 200px;
+  border-right: solid 1px silver;
+}
+
+.projects .messages-section {
+  background-color: rgb(244, 244, 230);
+  color: white;
+  width: 75%;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects .projects-section .welcome {
+  display: flex;
+  flex-direction: column;
+  color: rgb(0, 0, 0);
+  padding: 15px 0px;
+  font-weight: 600;
+  background-color: rgb(146, 136, 94);
+}
+
+.projects .welcome .header span {
+  font-size: larger;
+}
+
+.projects .closeBtn {
+  position: relative;
+  bottom: 15px;
+  background-color: rgb(54, 4, 4);
+  color: rgb(249, 244, 244);
+  border: 2px solid rgb(76, 74, 74);
+  padding: 5px 2px;
+  font-size: smaller;
+}
+
+.projects .closeBtn:hover {
+  background-color: rgb(89, 7, 7);
+  cursor: pointer;
+}
+
+.projects .project-list {
+  color: rgb(13, 12, 12);
+  font-weight: 600;
+}
+.projects .messages-section .skill-subsection {
+  width: 100%;
+  background-color: rgb(146, 136, 94);
+}
+
+.projects .messages-section .skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: rgb(0, 0, 0);
+  padding: 5px 0px;
+  font-weight: 600;
+  border-bottom: 1px solid rgb(66, 65, 65);
+}
+
+.projects .messages-section .skill-details {
+  width: 100%;
+  color: black;
+  font-weight: 600;
+  font-size: medium;
+  background-color: rgb(146, 136, 94);
+  border-bottom: 2px solid rgb(119, 119, 119);
+}
+
+.projects .messages-section .skills .no-skill-details {
+  display: none;
+}
+
+.messages-section .messages {
+  color: rgb(235, 161, 34);
+  min-height: 500px;
+}
+
+.messages-section .messages h2 {
+  padding-top: 5px;
+  color: white;
+}
+
+.messages-section .messages .message-list {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  color: rgb(233, 169, 31);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media only screen and (max-width: 800px) {
+  .projects {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .projects .addNewChannel button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .messages-section .messages {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .messages-section .messages {
+    width: 98%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+}
