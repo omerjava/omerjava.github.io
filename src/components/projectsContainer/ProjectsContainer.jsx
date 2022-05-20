@@ -1,19 +1,15 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./ProjectsContainer.css";
 import { myProjects, mySkills } from "../../config/data";
 import Project from "../project/Project";
-import Message from "../message/Message";
 import { useState } from "react";
 import Skill from "../skill/Skill";
 import SkillDetails from "../skillDetails/SkillDetails";
+import ProjectCard from "../projectCard/ProjectCard";
 
-function ProjectsContainer(props) {
+function ProjectsContainer() {
   const [id, setId] = useState(1);
   const [index, setIndex] = useState(0);
-
-  useEffect(() => {}, [index]);
-
-  useEffect(() => {}, [id]);
 
   return (
     <div className="projects">
@@ -24,7 +20,6 @@ function ProjectsContainer(props) {
             <span>My Portfolio!</span> <br></br> Projects & Skills{" "}
           </div>
         </div>
-
         <div className="project-list">
           {myProjects.map((v, i) => (
             <Project
@@ -39,9 +34,56 @@ function ProjectsContainer(props) {
               }}
             />
           ))}
+          </div>
+
+        <div className="mobile-project-list">
+          {myProjects.map((v, i) => (
+            <Project
+              key={i}
+              project={v.project}
+              info={v.info}
+              type={v.type}
+              description={v.description}
+              link={v.link}
+              fetchProjectInfo={() => {
+                setId(v.id);
+              }}
+              mobileProjectCard={
+                <ProjectCard
+                  key={myProjects[v.id - 1].id}
+                  nameOfClass={"projectCard-container2"}
+                  project={myProjects[v.id - 1].project}
+                  info={myProjects[v.id - 1].info}
+                  description={myProjects[v.id - 1].description}
+                  photo={myProjects[v.id - 1].photo}
+                  link={myProjects[v.id - 1].link}
+                />
+              }
+            />
+          ))}
+          <div className="mobileSkillsSection">
+            <div className="skills">
+              {mySkills.map((v, i) => (
+                <Skill
+                  key={i}
+                  area={v.area}
+                  mobileSkills={
+                    <SkillDetails
+                      area={
+                        i === 4
+                          ? `My ${mySkills[i].area}: `
+                          : `My ${mySkills[i].area} Skills: `
+                      }
+                      detail={mySkills[i].details}
+                    />
+                  }
+                />
+              ))}
+            </div>
+          </div>
         </div>
       </section>
-      <section className="messages-section">
+      <section className="projectCard-section">
         <div className="skill-subsection">
           <div className="skills">
             {mySkills.map((v, i) => (
@@ -62,12 +104,12 @@ function ProjectsContainer(props) {
           </div>
         </div>
 
-        <div className="messages">
-          <div className="message-list">
+        <div className="projectCards">
+          <div className="projectCard-list">
             {
-              <Message
+              <ProjectCard
                 key={myProjects[id - 1].id}
-                nameofclass={"message-container1"}
+                nameOfClass={"projectCard-container1"}
                 project={myProjects[id - 1].project}
                 info={myProjects[id - 1].info}
                 description={myProjects[id - 1].description}

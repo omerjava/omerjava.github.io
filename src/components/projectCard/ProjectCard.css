@@ -1,11 +1,16 @@
-.message-container1 {
+.projectCard-container1 {
   background-color: rgb(0, 0, 0);
   padding: 20px 45px;
   border: 2px solid rgb(119, 118, 118);
   border-radius: 10px;
 }
 
-.message {
+.projectCard-container2 {
+  background-color: rgb(0, 0, 0);
+  padding: 0px 0px;
+}
+
+.projectCard {
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -13,12 +18,12 @@
   border-radius: 5px;
 }
 
-.message img {
+.projectCard img {
   width: 100%;
   height: auto;
 }
 
-.message .top {
+.projectCard .top {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -27,23 +32,23 @@
   border-top: 1px solid silver;
 }
 
-.message .top .project-name {
+.projectCard .top .project-name {
   color: rgb(192, 199, 190);
   font-weight: 600;
   font-size: smaller;
 }
 
-.message .top .info {
+.projectCard .top .info {
   color: rgb(199, 193, 195);
   font-weight: 600;
   font-size: smaller;
 }
 
-.message-body {
+.projectCard-body {
   border-bottom: 10px silver solid;
 }
 
-.message-footer {
+.projectCard-footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -53,11 +58,11 @@
   font-size: small;
 }
 
-.message-footer a {
+.projectCard-footer a {
   color: silver;
   text-decoration: none;
 }
 
-.message-footer a:hover {
+.projectCard-footer a:hover {
   text-decoration: underline;
 }

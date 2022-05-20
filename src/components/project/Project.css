@@ -1,28 +1,44 @@
 .project-container {
-    margin-top: 1px;
-    background-color: rgb(240, 227, 207);
+  margin-top: 1px;
+  background-color: rgb(240, 227, 207);
 }
 
-.project {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 10px;
+.project-container .project {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
 }
 
-.project .type {
-    color:rgb(248, 245, 229);
-    font-size: smaller;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 2px;
-    background-color: rgb(158, 2, 2);
-    border-bottom-right-radius: 10px;
+.project-container .project .type {
+  color: rgb(248, 245, 229);
+  font-size: smaller;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 2px;
+  background-color: rgb(158, 2, 2);
+  border-bottom-right-radius: 10px;
 }
 
 .project-container:hover {
-    background-color: rgb(211, 206, 186);
-    color: rgb(54, 51, 42);
-    cursor: pointer;
+  background-color: rgb(211, 206, 186);
+  color: rgb(54, 51, 42);
+  cursor: pointer;
 }
 
+.project-container .mobile-projectCard {
+  display: none;
+}
 
+.project-container .no-mobile-projectCard {
+    display: none;
+  }
+
+@media only screen and (max-width: 820px) {
+  .project-container .mobile-projectCard {
+    display: block;
+  }
+
+  .project-container .no-mobile-projectCard {
+    display: none;
+  }
+}
