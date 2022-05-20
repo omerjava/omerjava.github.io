@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6c0efcc4.css",
-    "main.js": "/static/js/main.d009c80a.js",
+    "main.css": "/static/css/main.1b0c76d4.css",
+    "main.js": "/static/js/main.96b839ae.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/antwerp-pizza.png": "/static/media/antwerp-pizza.655086472170feef2971.png",
     "static/media/netflix-clone.png": "/static/media/netflix-clone.a1fb04053b7aadaafbe4.png",
@@ -16,12 +16,12 @@
     "static/media/react-calculator.png": "/static/media/react-calculator.5141125dad811a65aff4.png",
     "static/media/team-generator.png": "/static/media/team-generator.ffc03942c952a58e1ca2.png",
     "index.html": "/index.html",
-    "main.6c0efcc4.css.map": "/static/css/main.6c0efcc4.css.map",
-    "main.d009c80a.js.map": "/static/js/main.d009c80a.js.map",
+    "main.1b0c76d4.css.map": "/static/css/main.1b0c76d4.css.map",
+    "main.96b839ae.js.map": "/static/js/main.96b839ae.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c0efcc4.css",
-    "static/js/main.d009c80a.js"
+    "static/css/main.1b0c76d4.css",
+    "static/js/main.96b839ae.js"
   ]
 }
