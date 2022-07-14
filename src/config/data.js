@@ -25,10 +25,10 @@ export const myProjects = [
     id: 2,
     type: "fullstack",
     project: "BugFinders",
-    link: "",
+    link: "https://omerjava.github.io/bug-finders-frontend/",
     photo: bugFinders,
     info: "React-NodeJs-Express-PostgreSQL",
-    description: "It will be deployed soon!",
+    description: "",
   },
   {
     id: 3,
