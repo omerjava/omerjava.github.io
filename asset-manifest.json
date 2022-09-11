@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1b0c76d4.css",
-    "main.js": "/static/js/main.900e7b97.js",
+    "main.css": "/static/css/main.71d3877c.css",
+    "main.js": "/static/js/main.d69022e3.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/antwerp-pizza.png": "/static/media/antwerp-pizza.655086472170feef2971.png",
     "static/media/netflix-clone.png": "/static/media/netflix-clone.a1fb04053b7aadaafbe4.png",
@@ -9,6 +9,8 @@
     "static/media/global-challenges.png": "/static/media/global-challenges.3de36d047d756035a089.png",
     "static/media/hack-your-film.png": "/static/media/hack-your-film.b30c3f38136c6d9003d2.png",
     "static/media/portfolio-website.png": "/static/media/portfolio-website.11238bcefadf470d8e48.png",
+    "static/media/Employee-Management-System.jpg": "/static/media/Employee-Management-System.d6571af59169ab67013f.jpg",
+    "static/media/Ask-Your-Question.jpg": "/static/media/Ask-Your-Question.5afe53d827f19b475178.jpg",
     "static/media/chat-o.png": "/static/media/chat-o.b0a26c3ba96de886dc6f.png",
     "static/media/bug-finders.png": "/static/media/bug-finders.b9365843514ae6d7ecfe.png",
     "static/media/google-clone.png": "/static/media/google-clone.ec6c05c12f9a94e5307a.png",
@@ -16,12 +18,12 @@
     "static/media/react-calculator.png": "/static/media/react-calculator.5141125dad811a65aff4.png",
     "static/media/team-generator.png": "/static/media/team-generator.ffc03942c952a58e1ca2.png",
     "index.html": "/index.html",
-    "main.1b0c76d4.css.map": "/static/css/main.1b0c76d4.css.map",
-    "main.900e7b97.js.map": "/static/js/main.900e7b97.js.map",
+    "main.71d3877c.css.map": "/static/css/main.71d3877c.css.map",
+    "main.d69022e3.js.map": "/static/js/main.d69022e3.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b0c76d4.css",
-    "static/js/main.900e7b97.js"
+    "static/css/main.71d3877c.css",
+    "static/js/main.d69022e3.js"
   ]
 }
