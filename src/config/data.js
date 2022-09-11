@@ -164,7 +164,7 @@ export const mySkills = [
   {
     area: "Education",
     details:
-      "Bachelor of Science (Economics), Singapore Management University, 2003-2007; Hack Your Future Frontend Development Program, Oct 2021- June 2022; Java EE Opleiding, Multimedi-VDAB, June 20222-Feb 2023",
+      "Bachelor of Science (Economics), Singapore Management University, 2003-2007; Hack Your Future Frontend Development Program, Oct 2021- June 2022; Java EE Opleiding, Multimedi-VDAB, June 2022-Feb 2023",
   },
   {
     area: "Language",
