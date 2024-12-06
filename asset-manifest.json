@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.71d3877c.css",
-    "main.js": "/static/js/main.6eb26ae7.js",
-    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "main.css": "/static/css/main.ca46a72c.css",
+    "main.js": "/static/js/main.33f52887.js",
+    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "static/media/terrascope.png": "/static/media/terrascope.1a7773b62d14a27ab2c9.png",
+    "static/media/wig.png": "/static/media/wig.64acb029d688d93e98ed.png",
     "static/media/antwerp-pizza.png": "/static/media/antwerp-pizza.655086472170feef2971.png",
     "static/media/netflix-clone.png": "/static/media/netflix-clone.a1fb04053b7aadaafbe4.png",
+    "static/media/mapeo.png": "/static/media/mapeo.736c5e80ec4e609b53ca.png",
     "static/media/react-todo-app.png": "/static/media/react-todo-app.4c9f3a5e3069c77814b9.png",
     "static/media/global-challenges.png": "/static/media/global-challenges.3de36d047d756035a089.png",
     "static/media/hack-your-film.png": "/static/media/hack-your-film.b30c3f38136c6d9003d2.png",
@@ -18,12 +21,12 @@
     "static/media/react-calculator.png": "/static/media/react-calculator.5141125dad811a65aff4.png",
     "static/media/team-generator.png": "/static/media/team-generator.ffc03942c952a58e1ca2.png",
     "index.html": "/index.html",
-    "main.71d3877c.css.map": "/static/css/main.71d3877c.css.map",
-    "main.6eb26ae7.js.map": "/static/js/main.6eb26ae7.js.map",
-    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+    "main.ca46a72c.css.map": "/static/css/main.ca46a72c.css.map",
+    "main.33f52887.js.map": "/static/js/main.33f52887.js.map",
+    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.71d3877c.css",
-    "static/js/main.6eb26ae7.js"
+    "static/css/main.ca46a72c.css",
+    "static/js/main.33f52887.js"
   ]
 }
