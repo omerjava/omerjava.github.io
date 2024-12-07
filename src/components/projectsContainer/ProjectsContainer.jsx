@@ -29,6 +29,7 @@ function ProjectsContainer() {
               type={v.type}
               description={v.description}
               link={v.link}
+              codeLink={v.codeLink}
               fetchProjectInfo={() => {
                 setId(v.id);
               }}
@@ -45,6 +46,7 @@ function ProjectsContainer() {
               type={v.type}
               description={v.description}
               link={v.link}
+              codeLink={v.codeLink}
               fetchProjectInfo={() => {
                 setId(v.id);
               }}
@@ -57,6 +59,7 @@ function ProjectsContainer() {
                   description={myProjects[v.id - 1].description}
                   photo={myProjects[v.id - 1].photo}
                   link={myProjects[v.id - 1].link}
+                  codeLink={myProjects[id - 1].codeLink}
                 />
               }
             />
@@ -115,6 +118,7 @@ function ProjectsContainer() {
                 description={myProjects[id - 1].description}
                 photo={myProjects[id - 1].photo}
                 link={myProjects[id - 1].link}
+                codeLink={myProjects[id - 1].codeLink}
               />
             }
           </div>

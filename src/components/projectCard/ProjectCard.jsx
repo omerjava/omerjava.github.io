@@ -13,8 +13,15 @@ function ProjectCard(props) {
           <img src={props.photo} alt={props.project} />{" "}
         </div>
         <div className="projectCard-footer">
-          <a href={props.link}>Visit the project website!</a>
-          <span>{props.description}</span>
+          {props.link && props.link.trim() !== "" && (
+            <a href={props.link}>Visit the project website!</a>
+          )} 
+          {props.codeLink && props.codeLink.trim() !== "" && (
+            <a href={props.codeLink}>Project code on Github!</a>
+          )}  
+          {props.description && props.description.trim() !== "" && (
+            <span>{props.description}</span>
+          )}                  
         </div>
       </div>
     </div>
