@@ -1,11 +1,7 @@
-import angularTodo from "../assets/angular-todo-app.png";
 import bugFinders from "../assets/bug-finders.png";
 import globalChallenges from "../assets/global-challenges.png";
 import googleClone from "../assets/google-clone.png";
 import netflixClone from "../assets/netflix-clone.png";
-import reactCalculator from "../assets/react-calculator.png";
-import reactTodo from "../assets/react-todo-app.png";
-import teamGenerator from "../assets/team-generator.png";
 import hackYourFilm from "../assets/hack-your-film.png";
 import antwerpPizza from "../assets/antwerp-pizza.png";
 import chatO from "../assets/chat-o.png";
@@ -120,24 +116,6 @@ export const myProjects = [
   {
     id: 12,
     type: "frontend",
-    project: "Angular Team Generator",
-    link: "https://omerjava.github.io/angular-team-generator/",
-    photo: teamGenerator,
-    info: "Angular-Frontend",
-    description: "",
-  },
-  {
-    id: 13,
-    type: "frontend",
-    project: "Angular Todo App",
-    link: "https://omerjava.github.io/angular-todo/",
-    photo: angularTodo,
-    info: "Angular-Frontend",
-    description: "",
-  },
-  {
-    id: 14,
-    type: "frontend",
     project: "React Google Clone",
     link: "https://omerjava.github.io/react-google-clone/",
     photo: googleClone,
@@ -145,31 +123,12 @@ export const myProjects = [
     description: "",
   },
   {
-    id: 15,
+    id: 13,
     type: "frontend",
     project: "React Netflix Clone",
     link: "https://omerjava.github.io/react-netflix-clone/",
     photo: netflixClone,
     info: "UI-React-Frontend",
-    description: "",
-  },
-
-  {
-    id: 16,
-    type: "frontend",
-    project: "React Calculator",
-    link: "https://omerjava.github.io/react-calculator/",
-    photo: reactCalculator,
-    info: "React, Frontend",
-    description: "",
-  },
-  {
-    id: 17,
-    type: "frontend",
-    project: "React Todo",
-    link: "https://omerjava.github.io/react-todo-app/",
-    photo: reactTodo,
-    info: "React, Frontend",
     description: "",
   },
 ];
