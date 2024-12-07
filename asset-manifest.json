@@ -1,14 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.ca46a72c.css",
-    "main.js": "/static/js/main.33f52887.js",
+    "main.js": "/static/js/main.b7424ff7.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/terrascope.png": "/static/media/terrascope.1a7773b62d14a27ab2c9.png",
     "static/media/wig.png": "/static/media/wig.64acb029d688d93e98ed.png",
     "static/media/antwerp-pizza.png": "/static/media/antwerp-pizza.655086472170feef2971.png",
     "static/media/netflix-clone.png": "/static/media/netflix-clone.a1fb04053b7aadaafbe4.png",
     "static/media/mapeo.png": "/static/media/mapeo.736c5e80ec4e609b53ca.png",
-    "static/media/react-todo-app.png": "/static/media/react-todo-app.4c9f3a5e3069c77814b9.png",
     "static/media/global-challenges.png": "/static/media/global-challenges.3de36d047d756035a089.png",
     "static/media/hack-your-film.png": "/static/media/hack-your-film.b30c3f38136c6d9003d2.png",
     "static/media/portfolio-website.png": "/static/media/portfolio-website.11238bcefadf470d8e48.png",
@@ -17,16 +16,13 @@
     "static/media/chat-o.png": "/static/media/chat-o.b0a26c3ba96de886dc6f.png",
     "static/media/bug-finders.png": "/static/media/bug-finders.b9365843514ae6d7ecfe.png",
     "static/media/google-clone.png": "/static/media/google-clone.ec6c05c12f9a94e5307a.png",
-    "static/media/angular-todo-app.png": "/static/media/angular-todo-app.e9fa390829339c32b149.png",
-    "static/media/react-calculator.png": "/static/media/react-calculator.5141125dad811a65aff4.png",
-    "static/media/team-generator.png": "/static/media/team-generator.ffc03942c952a58e1ca2.png",
     "index.html": "/index.html",
     "main.ca46a72c.css.map": "/static/css/main.ca46a72c.css.map",
-    "main.33f52887.js.map": "/static/js/main.33f52887.js.map",
+    "main.b7424ff7.js.map": "/static/js/main.b7424ff7.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca46a72c.css",
-    "static/js/main.33f52887.js"
+    "static/js/main.b7424ff7.js"
   ]
 }
